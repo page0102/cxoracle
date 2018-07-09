@@ -11,7 +11,7 @@ import insertstat as Inssta
 
 def insert_baseinfo():
     print("  Start insertbaseinfo", ctime())
-    oraDbA = Oracle.Oracle('runvista','runco','172.16.0.218','orcl')
+    oraDbA = Oracle.Oracle('runvista','runco','172.16.0.xxx','orcl')
     cursorA = oraDbA.cursor
     while True:
         try:
@@ -21,7 +21,7 @@ def insert_baseinfo():
 
 def insert_location():
     print("  Start insertlocation", ctime())
-    oraDbB = Oracle.Oracle('runvista','runco','172.16.0.218','orcl')
+    oraDbB = Oracle.Oracle('runvista','runco','172.16.0.xxx','orcl')
     cursorB = oraDbB.cursor
     while True:
         try:
@@ -31,7 +31,7 @@ def insert_location():
 
 def insert_status():
     print("  Start insertstatus", ctime())
-    oraDbC = Oracle.Oracle('runvista','runco','172.16.0.218','orcl')
+    oraDbC = Oracle.Oracle('runvista','runco','172.16.0.xxx','orcl')
     cursorC = oraDbC.cursor
     while True:
         try:
