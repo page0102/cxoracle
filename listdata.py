@@ -7,7 +7,7 @@ import fnmatch
   
 def listdata(path, FileType = None):
     datalist = []
-    if  not FileType:
+    if  FileType:
         datadir = path
         os.chdir(datadir)
         for ftype in FileType:
